@@ -1,0 +1,41 @@
+ 
+nav.menu-btn{
+    display: block;
+}
+
+nav{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background-color: $grayishBlack;
+    height: 100vh;
+    padding: 1rem;
+
+    ul.primary-nav{
+        margin-top: 5rem;
+        
+    }
+
+    li{
+        a{
+            text-decoration: none;
+            display: block;
+            color: $white;
+            padding: .5rem;
+            font-size: 1.3rem;
+            text-align: right;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.mobile-exit{
+    float: right;
+    margin: .5rem;
+    cursor: pointer;
+}
